@@ -46,7 +46,7 @@
 
 - 主要贡献：根据借鉴 vant、Element、mint及其他优秀类库，协助并结合设计师的UI组件规范，实现了内部小程序组件库，后迁移至Chameleon和uni-app多端框架，考虑在 npm 上进行开源，但后续由于人力、框架及私有依赖库的建立没有在开源的路上继续维护。
 
-- ![Hupo-UI 组件库预览](https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/banner/170132_eaa721f7-03eb-4740-a42c-6345ee69bde7.JPG)
+  ![Hupo-UI 组件库预览](https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/banner/170132_eaa721f7-03eb-4740-a42c-6345ee69bde7.JPG)
 
 ### 基于 vue-cli2 的 vue 多页面高性能脚手架(2018.10)
 
