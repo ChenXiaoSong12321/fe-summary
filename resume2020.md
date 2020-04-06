@@ -12,11 +12,10 @@
 
 - 熟练使用 `JavaScript(ES6+)`，熟悉 `JavaScript` 面向对象及函数式编程，能够运用设计模式写出结构良好的现代代码。
 - 熟练使用 `Vue` 全家桶及相关生态，对其原理有一定深入的了解，知道大部分功能的实现方式。
-- 熟悉小程序开发及小程序相关优化，熟悉 uni-app、Chameleon 等小程序多端方案。
-- 熟悉 webpack，对前端工程化、模块化有一定的理解，有一定改良公司内部脚手架的经验。
-- 熟悉 dart，能够使用 Flutter 进行跨终端开发。
+- 熟悉 `小程序` 开发及小程序相关优化，熟悉 `uni-app`、`chameleon` 等小程序多端方案。
+- 熟悉 `webpack`，对前端工程化、模块化有一定的理解，有一定改良公司内部脚手架的经验。
+- 熟悉 `dart`，能够使用 `Flutter` 进行跨终端开发。
 - 熟悉 `React` 及相关生态和部分功能原理，能够使用其进行业务开发。
-- 对前端性能优化，提升开发效率有一定累积和经验。
 
 # 工作经历
 
@@ -31,25 +30,27 @@
 #### 企业内部 npm 依赖库(2019.6)
 
 - 问题：随着业务项目的推进，前端项目数量越来越多，通用性代码大多通过复制粘贴的形式，代码变得`繁杂臃肿`且`不易维护`，需找到合适的代码管理方式。
-- 任务：建立企业内部私有npm依赖库
-- 分析：根据目前的困境，将需要重复利用和管理的代码分成三类，`编译库`(帮助开发者提升效率)，`组件库`(C端所需公用类组件)，以及`核心库`(小程序项目核心方法)。
+- 任务：建立企业内部`私有npm依赖库`
+- 分析：根据目前的困境，将需要重复利用和管理的代码主要分成三类，`编译库`，`组件库`，以及`核心库`。
 - 结果：根据在 `npm文档`、`github`、`掘金`等资源进行调研，结合公司内部资源，采用 `nexus` 作为包管理平台，`lerna` 作为 `编译库(compile)`、`组件库(UI)`、`核心库(core)` 三个核心包的管理工具，通过 `npm域` 来控制私有包的拉取和上传，大幅度增加开发人员工作效率和代码复用性，代码管理得到显著提高。
 <!-- 根据在 `npm文档`、`github`、`掘金`等资源进行调研，结合公司内部资源，采用 `nexus` 作为包管理平台，`lerna` 作为 `编译库(compile)`、`组件库(UI)`、`核心库(core)` 三个核心包的管理工具，通过 `npm域` 来控制私有包的拉取和上传，大幅度增加开发人员工作效率和代码复用性，代码管理得到显著提高。 -->
 - 说明
   - 编译库(compile): 覆盖编译类工具方法，通过配置全局命令实现快速创建基础项目，拉取接口资源等功能，大幅度提高开发人员工作效率。
-  - 组件库(UI): 商城专属UI库，集中化管理，迭代效率得到优化，UI设计的规范化得到显著提升。
-  - 核心库(core): 核心工具方法，包含小程序框架核心依赖、常用方法、通信层封装、多端多态协议封装，代码质量得到提升，做到一处修改，各端更新。
+  - 组件库(UI): 商城项目内部UI库，集中化管理，迭代效率得到优化，UI设计的规范化得到显著提升。<https://github.com/ChenXiaoSong12321/hupo-ui>
+  - 核心库(core): 核心工具方法，包含小程序框架核心依赖、常用方法、通信层封装、多端多态协议封装，代码质量得到提升，做到一处修改，各端更新。<https://github.com/ChenXiaoSong12321/hupo-core>
 
 #### 小程序UI组件库(2018.12)
 
-技术架构：基于原生小程序 -> 基于 Chameleon 框架 -> 基于 uni-app框架
+技术架构：基于原生小程序 -> 基于 chameleon 框架 -> 基于 uni-app框架
 
-- 主要贡献：根据借鉴 vant、Element、mint及其他优秀类库，协助并结合设计师的UI组件规范，实现了内部小程序组件库，后迁移至Chameleon和uni-app多端框架，考虑在 npm 上进行开源，但后续由于人力、框架及私有依赖库的建立没有在开源的路上继续维护。
+- 主要贡献：根据借鉴 vant、Element、mint及其他优秀类库，协助并结合设计师的UI组件规范，实现了内部小程序组件库大部分组件，后迁移至Chameleon和uni-app多端框架，考虑在 npm 上进行开源，但后续由于人力、框架及私有依赖库的建立没有在开源的路上继续维护，已支持的端有微信小程序、支付宝小程序、微信内外H5、头条小程序。
 
-<figure style="display:flex">
-    <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/banner/170132_eaa721f7-03eb-4740-a42c-6345ee69bde7.JPG" width="200" style="margin-right:20px"/>
-    <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/222841_7bb1721b-741f-4ff9-bfdf-1cd3f11fc376.PNG" width="200"/>
-</figure>
+<div class="third">
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/150809_92d30c36-2966-4a0c-87d4-59e113201286.JPG"
+   style="margin-right:20px;width:200px;"/>
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/150824_af089fe8-fe60-4f5e-9bf0-a5980a01be60.JPG" style="margin-right:20px;width:200px;"/>
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152743_d0ce7c32-5173-4bb1-9422-6f262dd1ec16.PNG" style="width:200px;"/>
+</div>
 
 ### 基于 vue-cli2 的 vue 多页面高性能脚手架(2018.10)
 
@@ -62,11 +63,11 @@
 
 ### 主要涉及项目
 
-![琥珀前端](https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/214215_9360ff71-02d5-404a-b892-f8ae47f503e8.JPG)
+![琥珀前端](https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/191509_1025e193-4dc4-4e55-8a52-5d9cb37458c1.PNG)
 
 #### 琥珀亲子小程序
 
-技术架构：gulp+原生(目前线上) -> Chameleon框架(过渡) -> uni-app框架(内测)
+技术架构：gulp+原生(目前线上) -> chameleon框架(过渡) -> uni-app框架(内测)
 
 - 主要贡献：
   1. 基本业务逻辑及营销活动的前端支撑。
@@ -76,5 +77,5 @@
 #### 琥珀亲子小程序后台管理系统
 
 1. 基于选型框架并根据项目需求调整和框架优化。
-2. 实现并利用 `dispatch / broadcast` 增强Vue的通信方式，优化表单验证。
-3. 利用 `$attrs / $listeners` `provide/inject` 对Elememnt部分组件进行二次封装，提升开发效率。
+2. 利用 `dispatch/broadcast` 增强Vue的通信方式，优化表单验证。
+3. 利用 `$attrs/$listeners` `provide/inject` 对 Elememnt 部分组件进行二次封装，提升开发效率。
