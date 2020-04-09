@@ -1,7 +1,7 @@
 
 # 个人信息
 
-- 基本信息：`陈世松` | 男 ｜ 1994
+- 基本信息：`陈世松` | 男 ｜ 1994年
 - 学历信息：成都理工大学 | 全日制`本科`｜ 通信工程
 - 联系方式：`15608003358`(微信号同该手机号) | `448216252@qq.com`
 - 工作年限：`3年+`(2017.2至今)
@@ -43,16 +43,18 @@
 - 主要贡献：协助并结合设计师的UI组件规范，实现了内部小程序组件库大部分组件，后迁移至chameleon和uni-app多端框架。
 
 <div class="third">
-  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152743_d0ce7c32-5173-4bb1-9422-6f262dd1ec16.PNG" style="width:170px;"/>
-  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/150824_af089fe8-fe60-4f5e-9bf0-a5980a01be60.JPG" style="width:170px;"/>
-  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/150809_92d30c36-2966-4a0c-87d4-59e113201286.JPG"
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152019_0615d8c3-5c95-462b-a8aa-ff0f30c09258.JPG" style="width:170px;margin-right:5px;"/>
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152013_444ad079-9df7-4888-a42c-08b1fe88dbdb.JPG" style="width:170px;margin-right:5px;"/>
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152006_6842b5a7-ea18-4b98-aa6e-ecdf17f15735.JPG"
+   style="width:170px;margin-right:5px;"/>
+  <img src="https://mall-admin.hupovip.cn/hp-mall-admin/v1/comm/resource/view?token=850e62043c4e4d4795a31f35b834e490&path=/resource/images/businessmen/152016_c3d3550c-0675-493d-8231-580f513acba1.JPG"
    style="width:170px;"/>
 </div>
 
 ### 基于 vue-cli2 的 vue 多页面高性能脚手架(2018.10)
 
 - 主要特点：
-  1. `多项目/多页面`，可快速启动一个活动页项目。
+  1. `多项目/多页面`，可快速启动一个活动页 H5 项目。
   2. 已有cdn资源使用cdn链接，其他打包资源上传阿里oss，`充分利用cdn`，首次加载速度和二次加载速度得到极大提升。
   3. 通过命令行 `快速部署` 项目。
 
@@ -78,6 +80,6 @@
 
 ### 其他贡献
 
-1. 商家端App，技术栈：Flutter
-2. 文档系统，技术栈：Vue + Vuepress
-3. 代码规范、Git提交规范的制定
+1. 商家端App，基于 Flutter 完成商家端跨终端开发。
+2. 文档系统，基于 Vue + Vuepress 完成文档系统的搭建和模版设计。
+3. 完成和持续优化代码规范、Git提交规范、版本号规范等规范化制定。
