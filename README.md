@@ -13,7 +13,7 @@
 - [剖析 Vue.js 内部运行机制](https://juejin.im/book/5a36661851882538e2259c0f)
   - 来源：掘金小册 作者：染陌同学
 - [Vue.js 组件精讲- 面试、常见问题答疑.xmind](https://juejin.im/book/5bc844166fb9a05cd676ebca)
-  - 来源：掘金小册 作者：Aresnlv-4
+  - 来源：掘金小册 作者：Aresn
 - [前端性能优化原理与实践](https://juejin.im/book/5b936540f265da0a9624b04b)
   - 来源：掘金小册 作者：修言
 - [带你深度解锁Webpack系列](https://juejin.im/post/5e5c65fc6fb9a07cd00d8838)
