@@ -12,7 +12,7 @@
   - 来源：极客时间 作者：王沛
 - [剖析 Vue.js 内部运行机制](https://juejin.im/book/5a36661851882538e2259c0f)
   - 来源：掘金小册 作者：染陌同学
-- [Vue.js 组件精讲- 面试、常见问题答疑.xmind](https://juejin.im/book/5bc844166fb9a05cd676ebca)
+- [Vue.js 组件精讲 - 面试、常见问题答疑](https://juejin.im/book/5bc844166fb9a05cd676ebca)
   - 来源：掘金小册 作者：Aresn
 - [前端性能优化原理与实践](https://juejin.im/book/5b936540f265da0a9624b04b)
   - 来源：掘金小册 作者：修言
@@ -20,3 +20,5 @@
   - 来源：掘金文章 作者：刘小夕
 - [使用 webpack 定制前端开发环境](https://juejin.im/book/5a6abad5518825733c144469)
   - 来源：掘金小册 作者：teabyii
+- [前端面试之道](https://juejin.im/book/5bdc715fe51d454e755f75ef)
+  - 来源：掘金小册 作者：yck
